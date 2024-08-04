@@ -1,0 +1,50 @@
+* {
+  /* Orbitron is a linked google font*/
+  /* Fallback fonts are serif fonts */
+  font-family: Orbitron, Arial, "sans serif";
+}
+
+body {
+  background-color: dodgerblue;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  color: darkblue;
+}
+
+/* Set the font and background for all code snippets using a code class*/
+/* All code snippets must use a monospace font and have a different background. */
+.code {
+  font-family: monospace;
+  background-color: lightsteelblue;
+  text-align: center;
+}
+
+/* Give the table rounded corners. */
+table {
+  box-shadow: 0 5px 15px 2px rgba(44, 90, 143, 0.5);
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+th {
+  color: dodgerblue;
+  font-size: 1.5em;
+}
+
+th, td {
+  text-align: left;
+  padding: 1em;
+  background-color: lightskyblue;
+  border-bottom: 2px solid dodgerblue;
+  color: darkblue;
+}
+
+/* Remove the border from the last row as it detracts from the suble box shadow. */
+.last {
+  border-bottom: none;
+}
